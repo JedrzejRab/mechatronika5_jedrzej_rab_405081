@@ -16,17 +16,17 @@ void loop()
     digitalWrite(led_red, LOW);
     digitalWrite(led_yellow, LOW);
     digitalWrite(led_green, HIGH);
-    delay(2000); // wait 2 seconds
+    delay(3000); // wait 2 seconds
 
     // turn the yellow LED on and the other LEDs off
     digitalWrite(led_red, LOW);
     digitalWrite(led_yellow, HIGH);
     digitalWrite(led_green, LOW);
-    delay(1000); // wait 1 second
+    delay(2000); // wait 1 second
 
     // turn the red LED on and the other LEDs off
     digitalWrite(led_red, HIGH);
     digitalWrite(led_yellow, LOW);
     digitalWrite(led_green, LOW);
-    delay(3000); // wait 3 seconds
+    delay(300); // wait 3 seconds
 }
